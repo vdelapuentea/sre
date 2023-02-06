@@ -44,6 +44,13 @@ Para desplegarlo, hacemos los siguientes pasos en el terminal:
 * terraform apply
 ![image](https://user-images.githubusercontent.com/30010135/217009364-a3f0d0d6-9429-477d-a8f6-14661cde3b86.png)
 
-## 5. ¿Cuáles serían los mecanismos ideales para que sólo sistemas autorizados puedan acceder a esta API? (NO es
-necesario implementarlo). a. ¿Este mecanismo agrega algún nivel de latencia al consumidor? ¿Por qué?
+## 5. ¿Cuáles serían los mecanismos ideales para que sólo sistemas autorizados puedan acceder a esta API? (NO es necesario implementarlo). a. ¿Este mecanismo agrega algún nivel de latencia al consumidor? ¿Por qué?
 
+RPTA: 
+* Autenticación obligatoria para usuarios autorizados - Administrar usuarios autorizados con Cloud IAM.
+
+## 6. ¿Cuáles serían los SLIs y SLOs que definirías y por qué?
+
+RPTA: 
+* SLI: Alguna metrica para medir la presición del modelo RMSE // SLO: Monitorear el performance del modelo.
+* SLI: Medir el tiempo promedio de latencia de la api // SLO: Testear la app. 
