@@ -46,3 +46,4 @@ Para desplegarlo, hacemos los siguientes pasos en el terminal:
 
 ## 5. ¿Cuáles serían los mecanismos ideales para que sólo sistemas autorizados puedan acceder a esta API? (NO es
 necesario implementarlo). a. ¿Este mecanismo agrega algún nivel de latencia al consumidor? ¿Por qué?
+
