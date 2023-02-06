@@ -1,6 +1,6 @@
 # "CHALLENGE SRE" 
 
-1. Exponer el modelo serializado a través API REST.
+## 1. Exponer el modelo serializado a través API REST.
 a. Puedes usar el modelo ya serializado (pickle_model.pkl) o volver a generarlo.
 
 RPTA: Para la creación de la API REST se uso el framework Flask y HTML para la estructura de la web
