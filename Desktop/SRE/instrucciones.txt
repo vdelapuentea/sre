@@ -1,9 +1,0 @@
-gcloud auth login 
-
-gcloud config set project premium-portal-323320 
-
-gcloud builds submit --tag gcr.io/premium-portal-323320/sre --project=premium-portal-323320 
-
-gcloud run deploy --image gcr.io/premium-portal-323320/sre --platform managed --project=premium-portal-323320 --no-allow-unauthenticated --port=80
-gcloud run deploy --image gcr.io/premium-portal-323320/sre --platform managed --project=premium-portal-323320 --port=80
-
