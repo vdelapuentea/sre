@@ -12,3 +12,8 @@ RPTA: Para la automatización se uso la siguiente arquitectura.
 
 ![image](https://user-images.githubusercontent.com/30010135/217001216-738c55ca-648f-4ef4-b189-4f11ff50b727.png)
 
+Para desplegarlo en Cloud RUN, hacemos los siguientes pasos en el terminal:
+
+* gcloud auth login (cnos logueamos con nuestra cuenta de GCP)
+* gcloud config set project premium-portal-323320 (configuramos el proyecto en la cual vamos a trabajar)
+* 
