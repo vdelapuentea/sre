@@ -21,5 +21,4 @@ Para desplegarlo en Cloud RUN, hacemos los siguientes pasos en el terminal:
 * gcloud builds submit --tag gcr.io/premium-portal-323320/sre --project=premium-portal-323320
 * gcloud run deploy --image gcr.io/premium-portal-323320/sre --platform managed --project=premium-portal-323320 --port=80
 
-## 3. Hacer pruebas de estrés a la API con el modelo expuesto con al menos 50.000 requests durante 45 segundos. Para esto debes utilizar esta herramienta y presentar las métricas obtenidas.
-a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
+## 3. Hacer pruebas de estrés a la API con el modelo expuesto con al menos 50.000 requests durante 45 segundos. Para esto debes utilizar esta herramienta y presentar las métricas obtenidas. a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
